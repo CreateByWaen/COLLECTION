@@ -68,6 +68,10 @@
             line-height: 1.5;
             margin-bottom: 20px;
         }
+        .contact .icon {
+            font-size: 60px;
+            margin-bottom: 12px;
+        }
         .contact form {
             display: flex;
             flex-direction: column;
@@ -103,6 +107,7 @@
         <h1>OtakuPlay</h1>
     </div>
     <div class="contact">
+        <i class="fas fa-envelope icon"></i>
         <h1>Hubungi Kami</h1>
         <p>Jika Anda memiliki pertanyaan, saran, atau komentar, silakan isi formulir di bawah ini:</p>
         <form onsubmit="sendEmail(event)">
@@ -112,7 +117,6 @@
             <button type="submit">Kirim Pesan</button>
         </form>
     </div>
-
     <script>
         function sendEmail(event) {
             event.preventDefault();

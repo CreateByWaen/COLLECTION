@@ -1,6 +1,6 @@
 # CreateByWaen
 *Ini adalah sebuah projects utama, sebagai alternatif untuk ke website atau projects lainnya yang telah saya buat*
-- **Bot Whatsapp [Explanation](https://github.com/CreateByWaen/COLLECTION?tab=readme-ov-file#bot-whatsapp))**
+- **Bot Whatsapp [Explanation](https://github.com/CreateByWaen/COLLECTION?tab=readme-ov-file#bot-whatsapp)**
 - **Game IT [Explanation](https://github.com/CreateByWaen/COLLECTION?tab=readme-ov-file#game-it)**
 - **OtakuPlay [Explanation](https://github.com/CreateByWaen/COLLECTION?tab=readme-ov-file#otakuplay)**
 ___

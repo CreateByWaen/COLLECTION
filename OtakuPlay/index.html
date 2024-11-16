@@ -1,1 +1,130 @@
-
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="lib/image/otakuplay.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>OtakuPlay</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #000;
+            color: #fff;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            padding: 12px;
+            box-shadow: 0 1px 3px rgba(255, 255, 255, 0.1);
+            z-index: 1000;
+        }
+        .header h1 {
+            font-size: 12px;
+            margin: 0;
+            color: #000;
+        }
+        .nav {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            z-index: 1000;
+        }
+        .nav a {
+            display: flex;
+            align-items: center;
+            padding: 3px 6px;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 3px;
+            font-size: 9px;
+        }
+        .nav a:hover {
+            background-color: #333;
+        }
+        .info-buttons {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+        .info-buttons a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 3px 6px;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 3px;
+            font-size: 9px;
+        }
+        .info-buttons a i {
+            font-size: 12px;
+        }
+        .info-buttons a:hover {
+            background-color: #333;
+        }
+        .nav a.login, .nav a.daftar {
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+        }
+        .nav a.login i, .nav a.daftar i {
+            margin-right: 4px;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 30px;
+            margin-bottom: 12px;
+        }
+        .hero p {
+            font-size: 12px;
+            line-height: 1.5;
+            max-width: 350px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>OtakuPlay</h1>
+    </div>
+    <div class="nav">
+        <div class="info-buttons">
+            <a href="kontak.html">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="tentang.html">
+                <i class="fas fa-info-circle"></i>
+            </a>
+        </div>
+        <a href="login.html" class="login"><i class="fas fa-sign-in-alt"></i> Login</a>
+        <a href="daftar.html" class="daftar"><i class="fas fa-user-plus"></i> Daftar</a>
+    </div>
+    <div class="hero">
+        <h1>Selamat Datang di OtakuPlay</h1>
+        <p>
+            Platform terbaik untuk para pecinta anime, manga, dan game. Temukan konten favorit Anda, 
+            bergabunglah dengan komunitas kami, dan nikmati berbagai fitur menarik!
+        </p>
+    </div>
+</body>
+</html>

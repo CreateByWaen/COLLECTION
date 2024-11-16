@@ -1,1 +1,130 @@
-
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../otakuplay.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Tentang - OtakuPlay</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #000;
+            color: #fff;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            padding: 12px;
+            box-shadow: 0 1px 3px rgba(255, 255, 255, 0.1);
+            z-index: 1000;
+        }
+        .back-button {
+            display: flex;
+            align-items: center;
+            padding: 3px 6px;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 3px;
+            font-size: 9px;
+            margin-right: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #333;
+        }
+        .header h1 {
+            font-size: 12px;
+            margin: 0;
+            color: #000;
+        }
+        .about {
+            margin-top: 80px;
+            text-align: center;
+            max-width: 350px;
+        }
+        .about h1 {
+            font-size: 24px;
+            margin-bottom: 12px;
+        }
+        .about p {
+            font-size: 12px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        .about .icon {
+            font-size: 60px;
+            margin-bottom: 12px;
+        }
+        .social-icons {
+            position: fixed;
+            bottom: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            z-index: 1000;
+            width: 100%;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        .social-icons a {
+            display: flex;
+            align-items: center;
+            padding: 3px 6px;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+        .social-icons a:hover {
+            background-color: #333;
+        }
+        .social-icons a i {
+            margin-right: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <button class="back-button" onclick="window.location.href='../'">
+            Kembali
+        </button>
+        <h1>OtakuPlay</h1>
+    </div>
+    <div class="about">
+        <i class="fas fa-info-circle icon"></i>
+        <h1>Tentang OtakuPlay</h1>
+        <p>
+            OtakuPlay adalah platform yang didedikasikan untuk para penggemar anime, manga, dan game. 
+            Kami menyediakan tempat bagi penggemar untuk berbagi, berdiskusi, dan menikmati 
+            konten yang mereka cintai. Dengan fitur-fitur menarik dan komunitas yang aktif, 
+            kami berharap menjadi rumah bagi setiap otaku.
+        </p>
+        <p>
+            Bergabunglah dengan kami untuk menemukan rekomendasi anime terbaru, 
+            diskusi mendalam mengenai manga, serta berbagai acara yang menarik. 
+            OtakuPlay adalah tempat di mana semua pecinta kultur pop Jepang dapat bersatu 
+            dan merayakan kecintaan mereka!
+        </p>
+    </div>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/createbywaen/profilecard/?igsh=ZGE3M2hiMTFqNHVk" target="_blank" title="Instagram"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="https://www.tiktok.com/@create.by.waen?_t=8rRV2TDtBpA&_r=1" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i> TikTok</a>
+        <a href="https://www.youtube.com/channel/UCjc_YFuCk5L-eGv9BiA09vA" target="_blank" title="YouTube"><i class="fab fa-youtube"></i> YouTube</a>
+        <a href="https://whatsapp.com/channel/0029Vaw8uqYDp2QIN6cogt0n" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    </div>
+</body>
+</html>
